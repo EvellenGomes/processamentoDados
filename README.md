@@ -16,6 +16,11 @@ Este trabalho processa os dados do ENEM 2023, realiza análises estatísticas e 
 pip install pandas numpy matplotlib seaborn psycopg2-binary sqlalchemy python-dotenv
 ```
 
+Ou usando o arquivo requirements.txt:
+```bash
+pip install -r requirements.txt
+```
+
 ### 2. Configurar PostgreSQL
 - Instalar PostgreSQL
 - Criar banco de dados `processamentoDados`
